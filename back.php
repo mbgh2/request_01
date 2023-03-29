@@ -1,3 +1,3 @@
 <?php
-var_dump($_POST);
-print_r($_POST);
+var_dump($_GET);
+print_r($_GET);
