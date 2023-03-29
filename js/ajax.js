@@ -1,7 +1,7 @@
 let xhttp = new XMLHttpRequest();
 
 // открываем запрос и указываем куда посылать
-xhttp.open('post', 'back.php', true);
+xhttp.open('get', 'back.php', true);
 
 // конфигурирование типа данных запроса
 xhttp.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
